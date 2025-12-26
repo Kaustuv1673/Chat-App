@@ -25,7 +25,7 @@ export const getUsersForSideBar=async(req,res)=>{
     }
 }
 
-//Get all messages for selectred user
+//Get all messages for selected user
 export const getMessages=async(req,res)=>{
    try{
       const{id:selectedUserId}=req.params
